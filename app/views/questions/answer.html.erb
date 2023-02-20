@@ -1,0 +1,12 @@
+<h1>Answer Page</h1>
+<div class="box">
+<p><%= params[:question] %></p>
+<em><p><%= "- You" %></p></em>
+</div>
+
+<div class="box-coach">
+<p><%= @answer %></p>
+<em><p><%= "- Your coach" %></p></em>
+</div>
+
+<p><%= link_to "Ask a new question", ask_path %></p>
